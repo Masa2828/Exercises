@@ -1,12 +1,8 @@
 
 TITLE: 
-Slant - Responsive Free HTML5 template
+システム構築演習
 
-AUTHOR:
-DESIGNED & DEVELOPED by FREEHTML5.co
-http://freehtml5.co/
-http://twitter.com/fh5co
-http://facebook.com/fh5co
+
 
 
 CREDITS:
