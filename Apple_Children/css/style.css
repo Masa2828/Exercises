@@ -7360,6 +7360,8 @@ p {
   position: relative;
   z-index: 1;
   background-attachment: fixed;
+  background-image:url(../images/top.jpg);
+  background-size:cover; 
 }
 #fh5co-header .fh5co-overlay {
   position: absolute;
@@ -7369,7 +7371,10 @@ p {
   bottom: 0;
   width: 100%;
   z-index: 2;
-  background: rgba(253, 96, 93, 0.9);
+  background: rgba(253, 96, 93, 0.88);
+  
+  
+  
 }
 
 #fh5co-header,
@@ -7397,7 +7402,7 @@ p {
   font-family: "Montserrat", arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 5px;
-  margin: 0;
+  margin: 0; 
 }
 @media screen and (max-width: 768px) {
   .fh5co-intro-wrap .fh5co-intro .fh5co-intro-lead {
@@ -7527,7 +7532,7 @@ p {
 .fh5co-section-seperator.fh5co-section-seperator-white .form-control {
   color: #fff;
   border: none !important;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.78);
 }
 .fh5co-section-seperator.fh5co-section-seperator-white .form-control::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.3);
