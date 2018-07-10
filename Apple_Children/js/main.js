@@ -93,13 +93,14 @@
 	};
 
 	// Accordion
+	//サービスの部分
 	var accordion = function() {
 		$('.js-fh5co-accordion-toggle').click(function(event){
 			var $this = $(this);
 			if ( $this.closest('.fh5co-accordion').find('.fh5co-accordion-body').is(':visible') ) {
-				$this.text('Show More');
+				// $this.text('Show More');
 			} else {
-				$this.text('Show Less');
+				// $this.text('Show Less');
 			}
 			$this.closest('.fh5co-accordion').find('.fh5co-accordion-body').slideToggle(400, 'easeInOutExpo');
 			event.preventDefault();
