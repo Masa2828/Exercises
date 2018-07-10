@@ -65,7 +65,7 @@
 	};
 
 	
-	// MagnificPopup
+	// 背景のボヤボヤ
 	var magnifPopup = function() {
 		$('.image-popup').magnificPopup({
 			type: 'image',
@@ -109,7 +109,7 @@
 
 	// Scroll Animations
 
-	// Animate Feature
+	// Twitterとかのリンクのとこ
 	var animateSocial = function() {
 		if ( $('#fh5co-intro-social').length > 0 ) {	
 			$('#fh5co-intro-social > a').each(function( k ) {
@@ -124,7 +124,7 @@
 		}
 	};
 
-	// Animate Bio
+	// BIOGRAHYみたいなとこ
 	var animateBio = function() {
 		if ( $('#bio-animate').length > 0 ) {
 			$('#bio-animate .to-animate').each(function(k){
@@ -138,7 +138,7 @@
 		}
 	};
 
-	// Animate Counter 
+	// 売上とかのアニメんとこ 
 	var animateCounter = function() {
 		if ( $('#counter-animate').length > 0 ) {
 			$('#counter-animate .to-animate').each(function(k){
@@ -152,7 +152,7 @@
 		}
 	}
 
-	// Animate Projects
+	// メンバーとこのフワッてなるやつ
 	var animateProjects = function() {
 		if ( $('#projects-animate').length > 0 ) {
 			$('#projects-animate .to-animate').each(function( k ) {
@@ -167,7 +167,7 @@
 		}
 	};
 
-	// Animate Testimony
+	// 名言んとこ
 	var animateTestimony = function() {
 		if ( $('#testimony-animate').length > 0 ) {
 			$('#testimony-animate .to-animate').each(function( k ) {
@@ -182,7 +182,7 @@
 		}
 	};
 
-	// Animate Testimony
+	// サービスのとこらしい
 	var animateServices = function() {
 		if ( $('#services-animate').length > 0 ) {
 			$('#services-animate .to-animate').each(function( k ) {
@@ -197,7 +197,7 @@
 		}
 	};
 
-	// Animate Contact
+	// 入力フォーム
 	var animateContact = function() {
 		if ( $('#contact-animate').length > 0 ) {
 			$('#contact-animate .to-animate').each(function( k ) {
@@ -212,7 +212,7 @@
 		}
 	};
 
-	// Animate Footer
+	// フッター
 	var animateFooter = function() {
 		if ( $('#footer-animate').length > 0 ) {
 			$('#footer-animate .to-animate').each(function( k ) {
@@ -230,7 +230,7 @@
 
 
 	
-	// Waypoints 
+	// 各アニメーション 
 	var heroWayPoint = function() {
 		if ( $('#fh5co-header').length > 0 ) {
 			$('#fh5co-header').waypoint( function( direction ) {
