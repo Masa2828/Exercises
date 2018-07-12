@@ -40,7 +40,7 @@
 		});
 	};
 
-	// Hover
+	// Hover プロジェクト
 	var imgHover = function() {
 		$('.fh5co-project > a').mouseenter(function(){
 			$(this).find('.fh5co-overlay, .fh5co-overlay-text').stop().animate({
@@ -65,7 +65,7 @@
 	};
 
 	
-	// 背景のボヤボヤ
+	// 背景のボヤボヤ　背景画像
 	var magnifPopup = function() {
 		$('.image-popup').magnificPopup({
 			type: 'image',
@@ -93,7 +93,7 @@
 	};
 
 	// Accordion
-	//サービスの部分
+	//サービスの部分 open close
 	var accordion = function() {
 		$('.js-fh5co-accordion-toggle').click(function(event){
 			var $this = $(this);
